@@ -6,7 +6,21 @@ namespace Git_Aula107
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.Write("Código: ");
+            int Codigo = int.Parse(Console.ReadLine());
+
+            Console.Write("Nome: ");
+            string nome = Console.ReadLine();
+
+            Console.Write("CPF: ");
+            string cpf = Console.ReadLine();
+
+            Cliente c;
+            c = new Cliente(Codigo,nome,cpf);
+
+            Console.WriteLine();
+
+            Console.WriteLine(c.ToString());
         }
     }
 }
