@@ -21,6 +21,8 @@ namespace Git_Aula107
             Console.WriteLine();
 
             Console.WriteLine(c.ToString());
+
+            Console.WriteLine("Obrigado");
         }
     }
 }
